@@ -1,0 +1,9 @@
+{
+    "version"           : "0.0.1",
+    "name"              :"CeresTheme",
+    "description"       :"A theme for Ceres.",
+    "namespace"         :"CeresTheme",
+    "author"            :"",
+    "type"              :"template",
+    "serviceProvider"   : "CeresTheme\\Providers\\CeresThemeServiceProvider"
+}
