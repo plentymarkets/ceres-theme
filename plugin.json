@@ -5,5 +5,13 @@
     "namespace"         :"CeresTheme",
     "author"            :"",
     "type"              :"template",
-    "serviceProvider"   : "CeresTheme\\Providers\\CeresThemeServiceProvider"
+    "serviceProvider"   : "CeresTheme\\Providers\\CeresThemeServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key": "CeresTheme\\Containers\\DataProvider",
+            "name": "dataProvider",
+            "description": "dataProviders desc"
+        }
+    ]
 }
